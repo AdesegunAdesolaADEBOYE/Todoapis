@@ -1,7 +1,7 @@
 from django.utils import timezone
 from rest_framework import serializers
 
-from todos import models
+from . import models
 
 
 class TodoSerializer(serializers.ModelSerializer):

@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 from rest_framework import generics
 
-from todos import models
+from . import models
 from .serializers import TodoSerializer
 
 # Create your views here.
