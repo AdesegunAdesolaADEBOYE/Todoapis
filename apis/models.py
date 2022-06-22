@@ -4,7 +4,6 @@ from django.db import models
 from datetime import datetime, timezone
 
 # Create your models here.
-
 class Todo(models.Model):
     LOW = 1
     MEDIUM = 2
